@@ -1,0 +1,42 @@
+/*********************************************
+            ESTILOS PARA TEXTO
+ ********************************************/
+
+ .rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*********************************************
+            RESETEO 
+ ********************************************/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rock Salt", cursive;
+}
+
+.gallery {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.carousel img {
+    flex: 0 0 auto;
+    width: 300px;
+    height: auto;
+    scroll-snap-align: start;
+}
