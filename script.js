@@ -172,6 +172,33 @@ meme.addEventListener('click', function(event) {
     contenedorMensaje.style.display = 'none';
     contenedorMeme.style.display = 'block';
     
+<<<<<<< Updated upstream
+=======
+});
+
+regBtn.addEventListener('click', function(event) {
+    event.preventDefault();
+    contenedorLogin.style.display = 'none';
+    contenedorRegistro.style.display = 'none';
+    contenedorMenu.style.display = 'block';
+    contenedorMensaje.style.display = 'block';
+
+});
+
+inicioBtn.addEventListener('click', function(event) {
+    event.preventDefault();
+    contenedorLogin.style.display = 'none';
+    contenedorRegistro.style.display = 'none';
+    contenedorMenu.style.display = 'block';
+    contenedorMensaje.style.display = 'block';
+
+});
+
+
+
+
+
+>>>>>>> Stashed changes
 });
 
 regBtn.addEventListener('click', function(event) {
